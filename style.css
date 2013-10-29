@@ -1,0 +1,25 @@
+h1, #command{
+	font-size:25px;
+	text-align:center;
+}
+
+#message {
+	background-color: #CCFFFF;
+	border:solid 3px #6699FF;
+	height:300px;
+	width:600px;
+	position:absolute;
+	top:30%;
+	left:25%;
+}
+
+#guess {
+	position:absolute;
+	left:32%;
+	
+}
+
+#guessButton {
+	position:absolute;
+	left:59%;
+}

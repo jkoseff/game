@@ -1,0 +1,23 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+	<noscript>
+		<h3>This site requires JavaScript</h3>
+	</noscript>
+</head>
+<body onLoad="alert('You\'re about to play a fun game... Let\'s go!')">
+<div id="message">
+	</br>
+	<h1>I'm thinking of a number between 1 and 100.</br>What is it?</h1>
+	</br>
+	<div id="number">
+	</div>
+	</br>
+	<p id="command" onMouseOver="changeColor()" onMouseOut="changeColorBack()"> </p>
+	<input type="text" name="guess" id="guess">
+	<input type="button" onclick="checkGuess()" id="guessButton" value="Guess">
+</div>
+
+</body>
+</html>
